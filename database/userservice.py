@@ -19,15 +19,6 @@ def check_user_db(user_id):
         return exact_user
     else:
         return 'User not found'
-    # checker_phone = db.query(User).filter_by(phone_number=phone_number).first()
-    # checker_email = db.query(User).filter_by(email=email).first()
-    # if checker_name:
-    #     return "This username already exist"
-    # elif checker_email:
-    #     return "This email already exist"
-    # elif checker_phone:
-    #     return "This phone already exist"
-    # return True
 
 
 # getting data about user
